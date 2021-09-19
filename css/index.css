@@ -1,0 +1,156 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.navbar-brandSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brandName{
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron', 'sans-serif';
+    font-size: x-large;
+}
+
+.navbar-brandName:hover, .navbar-brandName:focus{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.jumbotron{
+    height: 600px;
+    color: white;
+    background-color:black;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.jumbo{
+    text-align: right;
+}
+
+.jumbo span{
+    font-size: xx-large;
+}
+
+.jumboB{
+    margin-left: 15px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 50px;
+    font-size: small;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    border-top: 1px solid white;
+}
+
+.brandFooter{
+    margin-left: auto;
+}
+
+.footer-brandName{
+    font-size: large;
+}
+
+.fa {
+    font-size: 25px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    color: white;
+    margin-right: 50px;
+}
+
+.social{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.broj{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px){
+    .jumbotron{
+        height: 400px;
+        padding: 20px;
+    }
+
+    .brandFooter{
+        margin: 0px;
+    }
+
+    .telo{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .izlog{
+        width: 200px;
+    }
+
+    .sadrzaj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sadrzaj p{
+        font-size: medium;
+    }
+
+    .social{
+        margin: 0px;
+        padding-right: 50px;
+    }
+
+    .broj, .social, .prava{
+        margin-top: 20px;
+    }
+
+    footer{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
